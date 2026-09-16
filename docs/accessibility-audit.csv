@@ -1,0 +1,6 @@
+issue_id,page_or_component,wcag_reference,evidence,severity,user_impact,recommended_fix,owner,status
+WEB-001,Main Navigation,2.1.1 Keyboard,Dropdowns don't open with Enter key,High,Keyboard-only users cannot access sub-menus without a mouse,Add keydown event listener for Enter/Space on dropdown toggles,Student,Open
+WEB-002,Contact/Feedback Form,3.3.2 Labels or Instructions,Missing <label> tags for input fields,High,Screen reader users do not know what data to enter in the inputs,Add explicit <label for="id"> elements for all form inputs,Student,Open
+WEB-003,Homepage Banner,1.4.3 Contrast (Minimum),Lighthouse report shows contrast ratio 2.5:1,Medium,Low vision users cannot read the banner text clearly,Darken the text color to meet the minimum 4.5:1 contrast ratio,Student,Open
+WEB-004,Footer Social Icons,1.1.1 Non-text Content,Screen reader reads image filename,Low,Visually impaired users don't know the link's destination,Add descriptive alt text like alt="Facebook Page" to images,Student,Open
+WEB-005,Search Modal,2.4.3 Focus Order,Focus stays on background when modal opens,High,Keyboard focus is lost navigating the background instead of the popup,Use JavaScript to trap focus inside the modal when it opens,Student,Open
